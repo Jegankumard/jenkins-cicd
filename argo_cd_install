@@ -18,3 +18,16 @@ After install, watch your operator come up using next command.
 $ kubectl get csv -n operators
 Copy to Clipboard
 To use it, checkout the custom resource definitions (CRDs) introduced by this operator to start using it.
+
+
+
+-------------------------
+https://argocd-operator.readthedocs.io/en/latest/usage/basics/
+
+apiVersion: argoproj.io/v1alpha1
+kind: ArgoCD
+metadata:
+  name: example-argocd
+  labels:
+    example: basic
+spec: {}
